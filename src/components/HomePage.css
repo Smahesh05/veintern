@@ -1,0 +1,79 @@
+.section {
+  width: 100vw;
+  height: 100vh;
+
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.svg-section {
+  background-image: url(../assets/wave.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+
+.left_section {
+  width: 30%;
+  height: 100%;
+}
+
+.left_section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  opacity: 0.9;
+  height: 100%;
+  object-fit: cover;
+  background: transparent;
+  /* border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; */
+}
+
+.right_section {
+  float: right;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 10px;
+  padding: 10px;
+  width: 340px;
+}
+
+.right_section h2 {
+  font-size: 30px;
+  color: #0d4f86;
+}
+
+.right_section p {
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  line-height: 25px;
+  color: #0d4f86;
+  padding: 0px 10px 10px 0;
+  margin-bottom: 30px;
+}
+
+.right_section button {
+  width: 100%;
+  color: #fff;
+  background-color: #0d4f86;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  justify-content: space-between;
+  padding: 10px 30px;
+  font-size: 19px;
+}
+
+.right_section button:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #28699e;
+}

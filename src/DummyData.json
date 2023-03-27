@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Tab 1",
+    "image": "https://source.unsplash.com/random",
+    "title": " libero"
+  },
+  {
+    "name": "Tab 2",
+    "image": "https://source.unsplash.com/random",
+    "title": " arcu libero"
+  },
+  {
+    "name": "Tab 3",
+    "image": "https://source.unsplash.com/random",
+    "title": "Morbi arcu libero"
+  }
+]
