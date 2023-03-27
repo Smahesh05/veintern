@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import DummyData from "../DummyData.json";
 const ModuleFive = () => {
-  // let items = ["Tab 1", "Tab 2", "Tab 3"];
-
   const [selectIndex, setSelectIndex] = useState(0);
 
   const navigate = useNavigate();
