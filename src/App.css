@@ -52,9 +52,9 @@
 
 .ri-home-2-fill {
   float: right;
-  position: absolute;
-  top: 10px;
-  right: 50px;
+  position: fixed;
+  top: 9px;
+  right: 40px;
   font-size: 30px;
   cursor: pointer;
   color: #9ea5ab;
@@ -72,7 +72,7 @@
 }
 
 .module-content-img {
-  width: 460px;
+  width: 400px;
   height: 300px;
   object-fit: cover;
 }
@@ -169,6 +169,23 @@
   .module_content {
     display: flex;
     flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .module-content-img {
+    max-width: 300px;
+  }
+
+  .right_section {
+    max-height: 600px;
+  }
+
+  .module_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 }

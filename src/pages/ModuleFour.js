@@ -12,13 +12,13 @@ const ModuleFour = () => {
   };
   return (
     <section className="module-1">
-      <i className="ri-home-2-fill" onClick={goToHomePage}></i>
       <div className="container mt-4">
         <div className="module-header">
           <h2 className="">Module 4</h2>
           <Link to="/search">
             <i className="ri-search-2-line "></i>
           </Link>
+          <i className="ri-home-2-fill" onClick={goToHomePage}></i>
         </div>
         <div className="content container">
           <ul className="row text-center">
